@@ -1,0 +1,85 @@
+@import url("/CSS/about.css");
+@import url("/CSS/lion.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+@media screen and (min-width: 768px) {
+  main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    background-color: #f7cac9;
+    color: black;
+    font-size: 24px;
+    height: 80px;
+    padding: 0 20px;
+  }
+
+  nav a {
+    color: black;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 25px;
+    flex-grow: 1;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+    margin: 50px;
+  }
+
+  main article {
+    background-color: #f7cac9;
+    padding: 20px;
+    border-radius: 40px;
+  }
+  main article h2 {
+    margin-top: 5px;
+  }
+  main article p {
+    margin-bottom: 0;
+    font-size: 20px;
+  }
+
+  main aside h3 {
+    margin-top: 0;
+  }
+  .picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 500px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    overflow: visible;
+  }
+
+  /*code from w3c */
+  .fa {
+    font-size: 10px;
+    padding: 20px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa-facebook {
+    color: black;
+    font-size: 25px;
+  }
+}
